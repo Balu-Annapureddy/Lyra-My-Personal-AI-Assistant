@@ -33,17 +33,15 @@
 ```bash
 git clone https://github.com/Balu-Annapureddy/Lyra-My-Personal-AI-Assistant.git
 cd Lyra-My-Personal-AI-Assistant
-2️⃣ Install Dependencies
-Make sure Python 3.8+ is installed.
-
-bash
+1. Install Dependencies
+  Make sure Python 3.8+ is installed.
 
 pip install -r requirements.txt
-3️⃣ Set Up API Keys
-Create a .env file in the project root and add your API keys:
+2. Set Up API Keys
+  Create a .env file in the project root and add your API keys:
 
 ELEVEN_API_KEY=your_elevenlabs_api_key_here
-4️⃣ Run Lyra AI
+3. Run Lyra AI
 
 python main.py
 
@@ -65,14 +63,4 @@ Pull requests are welcome! If you have ideas for new features or UI improvements
 
 If you want, I can also make a **polished Git commit message** to go with your first push so it looks professional on GitHub history.
 Do you want me to make that next?
-
-
-
-
-
-
-
-
-Ask ChatGPT
-```
 
