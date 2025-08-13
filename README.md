@@ -21,7 +21,7 @@
 - **Language:** Python
 - **Frontend/UI:** Tkinter (custom-styled light theme)
 - **Backend:** Python-based logic & AI API integration
-- **APIs:** OpenAI (or compatible AI API)
+- **APIs:** ElevenLabs
 - **Additional:** Requests, JSON handling, file management
 
 ---
@@ -31,37 +31,28 @@
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/lyra-ai.git
-cd lyra-ai
+git clone https://github.com/Balu-Annapureddy/Lyra-My-Personal-AI-Assistant.git
+cd Lyra-My-Personal-AI-Assistant
 2️⃣ Install Dependencies
 Make sure Python 3.8+ is installed.
 
 bash
-Copy
-Edit
+
 pip install -r requirements.txt
 3️⃣ Set Up API Keys
 Create a .env file in the project root and add your API keys:
 
-ini
-Copy
-Edit
-OPENAI_API_KEY=your_api_key_here
+ELEVEN_API_KEY=your_elevenlabs_api_key_here
 4️⃣ Run Lyra AI
-bash
-Copy
-Edit
+
 python main.py
-🖼️ Screenshots
-(Add screenshots of your Lyra AI UI here)
-Example:
+
 
 🔧 Customization
 You can extend Lyra AI by:
 
-Adding new commands in commands.py
 
-Modifying UI styles in ui/theme.py
+Modifying UI styles in ui.py
 
 Connecting extra APIs for specific tasks
 
@@ -71,13 +62,6 @@ This project is licensed under the MIT License – feel free to modify and share
 ❤️ Contributing
 Pull requests are welcome! If you have ideas for new features or UI improvements, fork the repo and submit a PR.
 
-Lyra AI – Your Personal AI Companion
-
-yaml
-Copy
-Edit
-
----
 
 If you want, I can also make a **polished Git commit message** to go with your first push so it looks professional on GitHub history.
 Do you want me to make that next?
@@ -91,3 +75,4 @@ Do you want me to make that next?
 
 Ask ChatGPT
 ```
+
