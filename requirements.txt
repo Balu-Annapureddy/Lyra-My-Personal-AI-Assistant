@@ -1,0 +1,11 @@
+requests
+beautifulsoup4
+pillow
+opencv-python
+pytesseract
+rapidfuzz
+SpeechRecognition
+pyttsx3
+pydub
+playsound==1.2.2
+python-dotenv
