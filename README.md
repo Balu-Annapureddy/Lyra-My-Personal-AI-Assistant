@@ -1,66 +1,38 @@
-# 🌟 Lyra AI
+# Lyra AI — Original Desktop Assistant Prototype (Mark 1)
 
-**Lyra AI** is a lightweight, extensible personal AI assistant designed to help you with daily tasks, answer questions, provide coding assistance, and enhance productivity — all through a clean and modern light-themed UI.
-
----
-
-## 🚀 Features
-
-- **Natural Language Understanding** – Talk to Lyra in plain English, get accurate and context-aware answers.
-- **Task Automation** – Set reminders, take notes, and perform quick utilities.
-- **Web Search & Summaries** – Fetch real-time information from the web and summarize it.
-- **Coding Help** – Debug, explain, and write code snippets in multiple languages.
-- **Creative Writing** – Generate stories, emails, and content ideas.
-- **Custom Commands** – Extend Lyra with your own functions and workflows.
-- **Lightweight UI** – Minimal, clean interface for distraction-free interaction.
+> **Status**: 🗄️ Archived Predecessor  
+> **Evolutionary Position**: Original Prototype (Lyra Mark 1) → Lyra Mark 2 → [Lyra Mark 3](https://github.com/Balu-Annapureddy/Lyra-AI-Mark3)  
+> **License**: MIT License  
 
 ---
 
-## 🛠️ Tech Stack
+## Overview & Historical Lineage
 
-- **Language:** Python
-- **Frontend/UI:** Tkinter (custom-styled light theme)
-- **Backend:** Python-based logic & AI API integration
-- **APIs:** ElevenLabs
-- **Additional:** Requests, JSON handling, file management
+This repository contains the **original early prototype of Lyra AI (Mark 1)**, designed as a lightweight desktop assistant exploring voice synthesis (ElevenLabs API), Tkinter graphical interfaces, optical character recognition (OCR), and simple agentic search tools.
+
+```
+Lyra Architectural Evolution:
+├── Original Lyra (This Repository - Mark 1 Prototype)
+│   └── Single-file Python modules (main.py, tts_handler.py, ocr_tools.py, agents.py)
+├── Lyra Mark 2 (Lyra-Ai-Mark2-)
+│   └── Client-server architecture with Flask REST API & React frontend
+└── Lyra Mark 3 (Lyra-AI-Mark3 - Active Flagship)
+    └── Local-first Personal AI Operating System with intent routing & policy guardrails
+```
+
+Development on this original prototype concluded when the architecture evolved into the client-server model in **Lyra Mark 2**, and subsequently into the local-first AI operating system engine in **Lyra Mark 3**.
 
 ---
 
-## 📦 Installation
+## Technical Stack (Mark 1)
 
-### 1️⃣ Clone the Repository
+- **Language**: Python 3.8+
+- **Graphical UI**: Tkinter (custom light-themed desktop layout)
+- **Voice & Speech**: ElevenLabs API integration (`tts_handler.py`)
+- **Utilities**: Tesseract OCR (`ocr_tools.py`), Web search parsing (`web_search.py`)
 
-```bash
-git clone https://github.com/Balu-Annapureddy/Lyra-My-Personal-AI-Assistant.git
-cd Lyra-My-Personal-AI-Assistant
-1. Install Dependencies
-  Make sure Python 3.8+ is installed.
+---
 
-pip install -r requirements.txt
-2. Set Up API Keys
-  Create a .env file in the project root and add your API keys:
+## Project Status & Archival Notice
 
-ELEVEN_API_KEY=your_elevenlabs_api_key_here
-3. Run Lyra AI
-
-python main.py
-
-
-🔧 Customization
-You can extend Lyra AI by:
-
-
-Modifying UI styles in ui.py
-
-Connecting extra APIs for specific tasks
-
-📜 License
-This project is licensed under the MIT License – feel free to modify and share.
-
-❤️ Contributing
-Pull requests are welcome! If you have ideas for new features or UI improvements, fork the repo and submit a PR.
-
-
-If you want, I can also make a **polished Git commit message** to go with your first push so it looks professional on GitHub history.
-Do you want me to make that next?
-
+This repository is maintained strictly as an **archived historical artifact** to demonstrate the architectural evolution and progression of the Lyra AI platform. For the active, maintained codebase, visit **[Lyra Mark 3](https://github.com/Balu-Annapureddy/Lyra-AI-Mark3)**.
