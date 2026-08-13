@@ -1,26 +1,40 @@
-# Lyra AI — Original Desktop Assistant Prototype (Mark 1)
+# Lyra Mark 1 — Archived Predecessor
 
-> **Status**: 🗄️ Archived Predecessor  
-> **Evolutionary Position**: Original Prototype (Lyra Mark 1) → Lyra Mark 2 → [Lyra Mark 3](https://github.com/Balu-Annapureddy/Lyra-AI-Mark3)  
-> **License**: MIT License  
+> 🗄️ Historical predecessor of [Lyra](https://github.com/Balu-Annapureddy/Lyra).
+
+Lyra Mark 1 was the first major implementation of my personal AI assistant concept.
+
+It explored:
+- desktop UI interaction (Tkinter)
+- natural-language commands
+- voice interaction (ElevenLabs API)
+- AI API integration
+- task automation & web search
+- optical character recognition (Tesseract OCR)
 
 ---
 
-## Overview & Historical Lineage
+## Status
 
-This repository contains the **original early prototype of Lyra AI (Mark 1)**, designed as a lightweight desktop assistant exploring voice synthesis (ElevenLabs API), Tkinter graphical interfaces, optical character recognition (OCR), and simple agentic search tools.
+Archived.
+
+This repository is preserved as the first stage of Lyra's development. Active development moved through Mark 2 and now continues in **[Lyra](https://github.com/Balu-Annapureddy/Lyra)**.
+
+---
+
+## Overview & Architectural Evolution
 
 ```
 Lyra Architectural Evolution:
-├── Original Lyra (This Repository - Mark 1 Prototype)
+├── Lyra Mark 1 (This Repository - Original Prototype)
 │   └── Single-file Python modules (main.py, tts_handler.py, ocr_tools.py, agents.py)
 ├── Lyra Mark 2 (Lyra-Ai-Mark2-)
 │   └── Client-server architecture with Flask REST API & React frontend
-└── Lyra Mark 3 (Lyra-AI-Mark3 - Active Flagship)
+└── Lyra (Lyra - Active Flagship)
     └── Local-first Personal AI Operating System with intent routing & policy guardrails
 ```
 
-Development on this original prototype concluded when the architecture evolved into the client-server model in **Lyra Mark 2**, and subsequently into the local-first AI operating system engine in **Lyra Mark 3**.
+Development on this original prototype concluded when the architecture evolved into the client-server model in **Lyra Mark 2**, and subsequently into the local-first AI operating system engine in **[Lyra](https://github.com/Balu-Annapureddy/Lyra)**.
 
 ---
 
@@ -33,6 +47,6 @@ Development on this original prototype concluded when the architecture evolved i
 
 ---
 
-## Project Status & Archival Notice
+## License
 
-This repository is maintained strictly as an **archived historical artifact** to demonstrate the architectural evolution and progression of the Lyra AI platform. For the active, maintained codebase, visit **[Lyra Mark 3](https://github.com/Balu-Annapureddy/Lyra-AI-Mark3)**.
+This project is licensed under the MIT License — see the [`LICENSE`](LICENSE) file for details.
